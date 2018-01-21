@@ -23,11 +23,11 @@ int nbDeJetonsColonne(int numColonne)
 void ajouterJeton(int choixJoueur)
 {
 	
-	if (coups_joues % 2 == 0) // turno giocatore 1 JAUNE
+	if (coups_joues % 2 == 0) // C'est au joueur n. 1 de jouer
 	{
 		grille[NB_LIG_GRILLE_MODELE - DECALAGE - nbDeJetonsColonne(choixJoueur) ][choixJoueur + DECALAGE] = JAUNE; 
 	}
-	else // turno giocatore 2 ROUGE
+	else // C'est au joeur n. 2 de jouer
 	{
 		grille[NB_LIG_GRILLE_MODELE - DECALAGE - nbDeJetonsColonne(choixJoueur) ][choixJoueur + DECALAGE] = ROUGE; 
 	}
