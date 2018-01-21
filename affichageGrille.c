@@ -1,3 +1,8 @@
+/*
+	Programme écrit par Ayoub SABRI
+	Novembre 2017 - Polytech Sorbonne
+*/
+
 #include <stdio.h>
 #include "affichageGrille.h"
 #include "main.h"
