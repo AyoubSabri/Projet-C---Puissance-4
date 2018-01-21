@@ -12,9 +12,9 @@ manipulationGrille.o : manipulationGrille.c manipulationGrille.h
 main.o : main.c main.h
 	gcc -Wall -c main.c -o main.o
 
-clean:
+clean :
 	rm -rf *.o
 
-.PHONY: all clean
+.PHONY : all clean
 
 
