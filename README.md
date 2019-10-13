@@ -1,3 +1,3 @@
-# Projet-C---Puissance-4
+# connect4
 
-Implementation of the game "Connect 4" coded in C.
+C implementation of the game "connect4".
